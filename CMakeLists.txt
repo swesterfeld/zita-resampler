@@ -19,7 +19,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/source)
 
 
 # make
-add_library(zita-resampler ${SOURCES} ${HEADER_LIST})
+add_library(zita-resampler SHARED ${SOURCES} ${HEADER_LIST})
 
 
 # CMake package config
