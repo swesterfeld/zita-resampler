@@ -60,3 +60,4 @@ install(
         NAMESPACE "${namespace}"
         DESTINATION "${config_install_dir}"
 )
+install(FILES ${HEADER_LIST} DESTINATION "include/zita-resampler")
